@@ -1,0 +1,34 @@
+.image-container {
+  position: relative;
+  display: block;
+}
+
+.image-container img {
+  display: inline-block;
+  width: 100%;
+  height: 350px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #4d6e5b; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 50px; 
+  text-align: center;
+}
+
+#background {
+  background-color: rgb(224, 204, 178);
+}
+
+.header {
+  padding: 10px 20px;
+  text-align: center;
+  background: #4d6e5b;
+  color: white;
+  font-size: 30px;
+}
