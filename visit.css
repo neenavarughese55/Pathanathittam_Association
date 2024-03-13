@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 7fr 5fr; 
+    gap: 20px; 
+}
+
+     
+.left-column {
+        background-color: #4d6e5b;
+        padding: 20px;
+        }
+
+.right-column {
+    background-color: #44a3439a;
+    padding: 20px;
+}
+
+#background {
+  background-color: rgb(224, 204, 178);
+}
