@@ -40,12 +40,65 @@
 
 #map {
   height: 350px; 
-  border: 1px solido black;
   width: 50%;
+  padding-top: 50px;
 }
 
 .center {
-  display: block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.info {
+    font-size: 20px;
+    background-color: #44a3439a;
+    color: white;
+    margin: auto;
+    padding: 20px 40px;
+    width: 94.3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: double;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    right: 50px;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: white; 
+    text-decoration: none; 
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
+
+.button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

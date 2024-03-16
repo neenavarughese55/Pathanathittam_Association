@@ -28,10 +28,28 @@
 img{
   height: 290px;
   width: 75%;
-  margin: 70px 90px;
+  margin: 90px 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
 }
 
 
+.img_back1 {
+  background-color: #4d6e5b;
+  height: 400px;
+  width: 75%;
+  margin: 90px 90px;
+}
+
+.img_back2 {
+  background-color: #44a3439a;
+  height: 400px;
+  width: 75%;
+  margin: 0px 90px;
+}
+ 
 .text{
   margin: 70px 90px;
   padding: 20px;
@@ -39,15 +57,35 @@ img{
   border-style: double;
 }
 
+h1 {
+  border: double;
+  font-size: 35px;
+  padding: 20px;
+  width: 20%;
+}
+
 h2 {
     font-size: 30px;
 }
 
-.header img{
-  padding: 10px 20px;
-  height: 50%;
-  text-align: center;
-  background: #4d6e5b;
-  color: white;
-  font-size: 25px;
+ a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: white; 
+    text-decoration: none; 
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+ a:hover {
+    background-color: #777;
+}
+
+.container {
+    text-align: center; 
+}
+
+.button {
+    display: block; 
+    margin-top: -80px;
 }
