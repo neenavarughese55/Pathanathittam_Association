@@ -17,7 +17,7 @@
 }
 
 #background {
-  background-color: rgb(224, 204, 178);
+  background-color: #52482c;
   color: white
 }
 
@@ -26,18 +26,28 @@
 }
 
 img{
-  height: 250px;
+  height: 290px;
   width: 75%;
-  margin: 30px 90px;
+  margin: 70px 90px;
 }
 
 
 .text{
-  margin: 90px 90px;
+  margin: 70px 90px;
   padding: 20px;
   font-size: 20px;
+  border-style: double;
 }
 
 h2 {
     font-size: 30px;
+}
+
+.header img{
+  padding: 10px 20px;
+  height: 50%;
+  text-align: center;
+  background: #4d6e5b;
+  color: white;
+  font-size: 25px;
 }

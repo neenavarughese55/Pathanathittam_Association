@@ -1,32 +1,36 @@
-.image-container {
-  position: relative;
-  display: block;
+.main-title{
+    background-color: #4d6e5b;
+    color: white;
+    font-size: 70px;
+    top: 50%;
+    bottom: 50%;
+    padding: 10px 20px;
+    float: right;
+    transform: translate(-30%, 100px); 
+    border: double;
 }
 
-.image-container img {
-  display: inline-block;
-  width: 100%;
-  height: 500px;
+.main-img {
+    height: 400px;
+    width: 50%;
+    margin-right: right;
+    display: block;
+    border: double;
+    border-color: #44a3439a;
 }
 
-.overlay-text {
-  position: absolute;
-  top: 20%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  background-color: #4d6e5b; 
-  color: #fff; 
-  padding: 10px 20px; 
-  font-size: 50px; 
-  text-align: center;
+.sub-img{
+    float:right;
+    width: 200px;
+    transform: translate(240%, 60px)
 }
 
 #background {
-  background-color: rgb(224, 204, 178);
+  background-color: #52482c;
 }
 
-.header {
-  padding: 10px 20px;
+.sub-header {
+  padding: 20px 40px;
   height: 175px;
   text-align: center;
   background: #4d6e5b;
@@ -36,7 +40,7 @@
 
 #map {
   height: 350px; 
-  border: 1px solid black;
+  border: 1px solido black;
   width: 50%;
 }
 
