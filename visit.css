@@ -28,7 +28,7 @@
 img{
   height: 290px;
   width: 75%;
-  margin: 150px 90px 100px;
+  margin: 90px 90px 90px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,6 +41,7 @@ img{
   height: 400px;
   width: 75%;
   margin: 90px 90px;
+  border-radius: 20px;
 }
 
 .img_back2 {
@@ -48,10 +49,11 @@ img{
   height: 400px;
   width: 75%;
   margin: 90px 90px;
+  border-radius: 20px;
 }
  
 .text{
-  margin: 90px 90px 100px;
+  margin: 90px 90px 90px;
   padding: 20px;
   font-size: 20px;
   border-style: double;
