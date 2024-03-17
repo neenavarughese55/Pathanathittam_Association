@@ -28,7 +28,7 @@
 img{
   height: 290px;
   width: 75%;
-  margin: 90px 90px;
+  margin: 150px 90px 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,14 +47,15 @@ img{
   background-color: #44a3439a;
   height: 400px;
   width: 75%;
-  margin: 0px 90px;
+  margin: 90px 90px;
 }
  
 .text{
-  margin: 70px 90px;
+  margin: 90px 90px 100px;
   padding: 20px;
   font-size: 20px;
   border-style: double;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -82,12 +83,14 @@ h2 {
 }
 
 .container1 {
-    text-align: center; 
+    text-align: center;
 }
 
 .button {
     display: block; 
     margin-top: -80px;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
 }
 
 nav {
