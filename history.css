@@ -1,5 +1,9 @@
-#background {
-  background-color: #52482c;
+
+body {
+  background-image: url('Img/wooden-background.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .main-title{
@@ -52,7 +56,8 @@ ul li{
 }
 
 .main-img{
-    margin: 10px
+    margin: 10px;
+    border-radius: 20px;
 }
 
 nav {

@@ -29,6 +29,13 @@
   background-color: #52482c;
 }
 
+body {
+  background-image: url('Img/wooden-background.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .sub-header {
   padding: 20px 40px;
   height: 175px;

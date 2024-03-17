@@ -5,20 +5,25 @@
 }
  
 .left-column {
-        background-color: #4d6e5b;
-        padding: 20px;
-        height: 100%;
-        }
+    background-color: #4d6e5b;
+    padding: 20px;
+    height: 100%;
+    border-radius: 20px;
+}
 
 .right-column {
     background-color: #44a3439a;
     padding: 20px;
     height: 100%;
+    border-radius: 20px;
 }
 
-#background {
-  background-color: #52482c;
-  color: white
+body {
+  background-image: url('Img/wooden-background.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
 .groove {
@@ -57,7 +62,6 @@ img{
   padding: 20px;
   font-size: 20px;
   border-style: double;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -65,10 +69,21 @@ h1 {
   font-size: 35px;
   padding: 20px;
   width: 20%;
+  background-color: #555;
+}
+
+.sub-img{
+    position: absolute;
+    top: -130px;
+    bottom: 20px; 
+    width: 200px;
+    height: 200px;
+    margin-left: 11%;
 }
 
 h2 {
     font-size: 30px;
+    text-decoration: underline;
 }
 
  a {
