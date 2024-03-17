@@ -1,27 +1,23 @@
 # Pathanathittam_Association
 
-Pathanamthitta Tourist page design report 
+I developed a tourist page for my hometown in South India, with a primary focus on creating an engaging and visually appealing homepage. To achieve this, I implemented a layout where an image occupies half of the page, while the title resides on the other half. Ensuring precise alignment of the title proved to be a meticulous task but was eventually achieved. Additionally, I incorporated a wooden background image to evoke an authentic essence throughout the website.
 
-I created a tourist page for my hometown in South India. I first created a home page and focused on how to make it as eye-catching as possible. How I executed that was by instead of the image taking up the whole width of the page, the image took up half of the page and title was on the other side. This had taken me awhile to achieve as the title was not positioning at the center of the other side.
+For the title section, I employed a double border, a green background(#4d6e5b), and a PNG palm tree image to enhance visual interest. This design inspiration was consistently applied to the headings across the history and visit pages.
 
-As for the title after adding the double border and green background with a png palm tree image on the right hand side of the title I got inspired to consistently carry out the same design for the headings for the history and visit page.
+The secondary header featured the town's slogan and founding date, accompanied by a text box containing general information about Pathanamthitta. However, adjusting the width of the text box to take up the full width of the page required precision to maintain perfect alignment with the banner.
 
-Continuing on I included in a secondary header with the slogan and found date of the town as well as a text box including general information about Pathanamthitta but this time taking up the full width but when I inputted the width to be 100% the text box overlapped the whole banner to the right so I had to enter a more precise percentage to achieve the perfect alignment between the banner and the text box.
+Underneath the text box, a map depicting Pathanamthitta's location was positioned at the center of the page. Challenges arose when attempting to position the hyperlink beneath the map, leading to a larger map on the OpenStreetMap website. As a resolution, the hyperlink was placed on the right-hand side of the page.
 
-Beneath the text box, I had added the map of the location of Pathanamthitta and implemented it to be in the center of the page, but I had trouble moving the hyperlink beneath the map to show the larger map which takes you to the open street map website; to the center so I left it at the right hand side of the page. 
+Transitioning to the History page, a similar design approach was adopted for the title, albeit positioned centrally. A text box below the title provided insights into the town's history, employing a format akin to the homepage. Despite initial challenges in positioning the text box beside the image, alignment issues were eventually resolved.
 
-Moving onto the History page I had done the same exact design for the title as I did for the home page but this time positioned the title to be in the center of the page.
+On the Visit page, the title design mirrored that of previous pages but with a different background colour (#555).
 
-I included a text box beneath the title consisting of information on the history of Pathanamthitta. While recreating the half image and half text as I did for the homepage banner, but this time including more information about the history of Pathanamthitta instead of the title. The text box was again hard to position as I had trouble moving it beside the image and aligning correctly but eventually managed.
+To achieve a visually appealing layout, a 7:5 column ratio was implemented using CSS, HTML, and Bootstrap, with the left-hand side divided into a 7-part column and the right-hand side into a 5-part column. Differentiating colours (#44a3439a & #4d6e5b) were applied to delineate sections, explaining the variation in the title's colour.
 
-Lastly for the visit page I designed the title same as the other pages but this time a different background colour. 
+Originally, text was placed in the 7-part column with corresponding images in the 5-part column. However, to address perceived emptiness, a reorganisation was implemented, resulting in alignment challenges between images and text.
 
-I implemented in css and html to achieve the 7:5 column ratio but including a 7 part column on the left hand side of the page and 5 part column on the right hand side of the page using bootstrap and coloured them two different colours as to why the title was a different colour from the previous titles. 
+A "Learn More" button was introduced below images, providing users with access to detailed information about the destination. Enhancements were made by giving the button a coloured background matching adjacent columns, though adjustments were required to ensure optimal width and alignment.
 
-Originally I had included the text in the 7 part column and the corresponding images to the text on the 5 part column but the page felt very empty so I placed the text and image in each column in an alternative format but this had caused the issue of the image and it’s text not aligning well however the page looked a lot less empty so I still proceeded and tried to sort out the alignment but it is still a bit off. I underlined the headings for each column.
+Navigation was facilitated through consistent button design, echoing the aesthetics of the "Learn More" button. Font-family consistency was maintained across text boxes and information sections, employing 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', and sans-serif fonts.
 
-Next I added a learn more button below the image, which once you click the button it leads you to a website which goes into more detail about the place. The button felt a little out of place and empty so I added a coloured background to the colour of the column next to it and positioned the button to overlap the background. Although I felt the design looked much better I had issues shortening the buttons width and aligning the image to the text again. 
-
-As for Navigation I used the same button design as I did for the learn more button used in the visit page. 
-
-The colour scheme was decided by the view of nature in the images which I found online whenever I searched up Pathanamthitta. The shades of green reminded me of the trees and plants, the grey reminded me of the stone and the brown reminded me of the colour of the huts also the trees branches/trunk
+The colour scheme was meticulously chosen to reflect the natural beauty of Pathanamthitta, with shades of green evoking lush foliage, grey symbolising stone, and brown reminiscent of traditional huts and tree branches/trunk.
